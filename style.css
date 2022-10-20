@@ -7,6 +7,9 @@
     --background: #4c5259;
     --lightgray: #C4C4C3;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     background-color: var(--background);
     color: #ffffff;
