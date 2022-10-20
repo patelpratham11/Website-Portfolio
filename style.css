@@ -174,7 +174,7 @@ h2{
 
 .Intro p{
     grid-column: 1/5;
-    grid-row: 3;
+    grid-row: 2;
     justify-self: center;
     align-self: center;
 }
@@ -182,7 +182,7 @@ h2{
     height: 25vw;
     width: 20vw;
     grid-column: 1/5;
-    grid-row: 4;
+    grid-row: 3;
     border-radius: 5%;
     transform: rotate(3deg);
     margin-top: 5vh;
