@@ -156,35 +156,36 @@ h2{
 
 
 /* Section: Intro */
-.IntroBeg{
-    display: grid;
-    text-align: center;
-    height: 100vh;
-}
 .Intro{
     display: grid;
-    grid-column: 3;
+    text-align: center;
+    height: fit-content
 }
-.IntroBeg h1{
+/* .Intro{
+    display: grid;
+    grid-column: 3;
+} */
+.Intro > h1{
     grid-column: 1/5;
     grid-row: 1;
     justify-self: center;
     align-self: center;
 }
-.IntroInfo p{
+
+.Intro p{
     grid-column: 1/5;
-    grid-row: 2;
-    justify-self: center;
-    align-self: center;
+    grid-row: 3;
 }
 .MePic{
     height: 25vw;
     width: 20vw;
-    grid-column: 2/4;
-    grid-row: 3;
+    grid-column: 1/5;
+    grid-row: 4;
     border-radius: 5%;
     transform: rotate(3deg);
     margin-top: 5vh;
+    justify-self: center;
+    align-self: center;
 }
 
 /* Section: Projects */
