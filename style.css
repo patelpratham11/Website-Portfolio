@@ -161,10 +161,6 @@ h2{
     text-align: center;
     height: fit-content
 }
-/* .Intro{
-    display: grid;
-    grid-column: 3;
-} */
 .Intro h1{
     grid-column: 1/5;
     grid-row: 1;
@@ -363,7 +359,7 @@ h2{
 
 /* Section: Experience */
 .Experience{
-    height: 200vh;
+    height: fit-content;
 }
 .Experience h1{
     grid-column: 1/5;
@@ -444,7 +440,7 @@ h2{
 
 .Accomplishments{
     display: grid;
-    height: 130vh;
+    height: fit-content;
 }
 
 .Accomplishments h1{
@@ -719,6 +715,9 @@ h2{
   }
 
 /* Section: Hobbies */
+.Hobbies{
+    height: fit-content;
+}
 .Hobbies h1{
     grid-column: 1/5;
     grid-row: 1;
@@ -738,6 +737,7 @@ h2{
     margin-top: 5vh;
     padding: 3vh;
     display: grid;
+    height: fit-content;
 }
 .photography{
     height: 90%;
