@@ -171,7 +171,7 @@ h2{
     justify-self: center;
     align-self: center;
 }
-.IntroInfo{
+.IntroInfo p{
     grid-column: 1/5;
     grid-row: 2;
     justify-self: center;
