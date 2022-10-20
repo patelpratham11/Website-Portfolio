@@ -74,21 +74,21 @@ function changeImage(){
 window.onload = changeImage;
 
 
-var imgVals = Array.from(document.querySelectorAll('img'));
+// var imgVals = Array.from(document.querySelectorAll('img'));
         
-if ('IntersectionObserver' in window) {
-    const imageObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const image = entry.target;
+// if ('IntersectionObserver' in window) {
+//     const imageObserver = new IntersectionObserver((entries, observer) => {
+//         entries.forEach(entry => {
+//             if (entry.isIntersecting) {
+//                 const image = entry.target;
 
-                // image.src = image.dataset.src;
-                image.onload = () => image.previousElementSibling.remove();
+//                 // image.src = image.dataset.src;
+//                 image.onload = () => image.previousElementSibling.remove();
 
-                imageObserver.unobserve(image);
-            }
-        });
-    });
+//                 imageObserver.unobserve(image);
+//             }
+//         });
+//     });
 
-    imgVals.forEach(img => imageObserver.observe(img));
-}
+//     imgVals.forEach(img => imageObserver.observe(img));
+// }
