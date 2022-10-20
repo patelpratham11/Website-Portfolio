@@ -165,14 +165,14 @@ h2{
     display: grid;
     grid-column: 3;
 } */
-.Intro > h1{
+.Intro h1{
     grid-column: 1/5;
     grid-row: 1;
     justify-self: center;
     align-self: center;
 }
 
-.Intro > p{
+.Intro p{
     grid-column: 1/5;
     grid-row: 3;
     justify-self: center;
